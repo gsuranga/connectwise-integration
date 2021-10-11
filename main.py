@@ -7,8 +7,8 @@ from connectpyse.service import ticket_notes_api, ticket_note, tickets_api, tick
 
 URL = 'https://api-aus.myconnectwise.net/v4_6_release/apis/3.0'
 
-AUTH = {'Authorization': 'Basic YW5kbW9yKzd5aXpVbHBJWjFPeDU0cXk6aERwVlpDWHBaY0hhUVdvcg==',
-        'clientId': 'de1b7590-9214-473b-b844-0c80dbd7b570'}
+AUTH = {'Authorization': 'Basic YW5kbW9yKzd5aXpVbHBJWjFPeDU0cXk6DWHBaY0hhUVdvcg==',
+        'clientId': 'de1b7590-9214-473b-b844-0c80d7b570'}
 m = members_api.MembersAPI(url=URL, auth=AUTH)
 a_member = m.get_members_count()
 print(a_member)
